@@ -2,12 +2,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
-    background-color: #f4f4f4;
+    background-color: #121212; /* Темно-серый фон */
+    color: #e0e0e0; /* Светлый текст */
 }
 
 header {
     text-align: center;
-    background-color: #333;
+    background-color: #1f1f1f; /* Еще более темный фон для заголовка */
     color: white;
     padding: 20px;
 }
@@ -15,10 +16,14 @@ header {
 section {
     margin: 20px 0;
     padding: 20px;
-    background-color: white;
+    background-color: #1f1f1f; /* Еще более темный фон для секций */
     border-radius: 5px;
 }
 
 h1, h2 {
-    color: #333;
+    color: #ffffff; /* Белый цвет для заголовков */
+}
+
+a {
+    color: #bb86fc; /* Фиолетовая ссылка, контрастирующая с темным фоном */
 }
